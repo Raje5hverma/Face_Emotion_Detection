@@ -1,12 +1,16 @@
-# React + Vite
+# Face Emotion Detection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project help us to  detects and classifies human facial emotions in real-time using machine learning.  
+it uses OpenCV for face detection and a trained deep learning model for emotion classification.
 
-Currently, two official plugins are available:
+# Features
+- Real-time face detection from webcam or image
+- Emotion classification into categories such as:
+  - Happy
+  - Sad
+  - Angry
+  - Surprise
+  - Neutral
+- Works on both images and live video streams
+- Lightweight and easy to use
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
