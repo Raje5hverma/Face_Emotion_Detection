@@ -5,7 +5,7 @@ it uses OpenCV for face detection and a trained deep learning model for emotion 
 
 # Features
 - Real-time face detection from webcam or image
-- Emotion classification into categories such as:
+- Emotion classification into categories such as: 
   - Happy
   - Sad
   - Angry
